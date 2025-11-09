@@ -118,8 +118,18 @@ header {
   color: white;
 }
 .hero-image {
-  background: url('https://via.placeholder.com/800x600.png?text=Therapist+Image') center/cover no-repeat;
+  background: linear-gradient(135deg, #E8EBE9, #D2DAD6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6F7C74;
+  font-size: 18px;
+  font-weight: 500;
 }
+.hero-image::after {
+  content: "Image Placeholder";
+}
+
 
 
 /* About */
